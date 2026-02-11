@@ -18,9 +18,12 @@ This project addresses the challenge of grid instability in renewable energy sys
    pip install -r requirements.txt
 
 2. Train the model:
+   ```bash
    python train_model.py
 
-3. Run the live predictor:
+4. Run the live predictor:
+   ```bash
    python predict_app.py
 
 (NOTE: You will need your own API key from OpenWeatherMap)
+
